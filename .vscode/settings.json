@@ -1,0 +1,35 @@
+{
+    "debug.javascript.autoAttachFilter": "disabled",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 10,
+    "editor.fontFamily": "'Fira Code iScript',Menlo, Monaco, 'Courier New', monospace",
+        "editor.tokenColorCustomizations": {
+          "textMateRules": [
+            {
+              "scope": [
+                "comment",
+                "keyword", 
+                "variables",
+                "variableTypes",
+                "text",
+                "storage.modifier",
+                "storage.type.class.js",
+                "storage.type.js"
+              ],
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": [
+                "keyword.control.conditional",
+                "keyword.operator"
+              ],
+              "settings": {
+                "fontStyle": ""
+              }
+            }
+          ]
+        },
+      
+}
